@@ -1,0 +1,309 @@
+/* theme name: السياحة العلاجية في مصر
+   theme coder: Bassem Ahmed
+   first color: #08526d
+   second color: #ec1c23
+*/
+body, html
+{
+    direction: rtl;
+}
+
+/* navbar */
+.navbar-brand span:first-child
+{
+    font-weight: 500;
+    color: #00bbf0;
+}
+.navbar-brand span:last-child
+{
+    color: #08526d;
+}
+nav .navbar-nav
+{
+    margin-right: 65%;
+}
+.navbar-nav .nav-link
+{
+    font-size: 16px;
+    color: #08526d !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 50px;
+}
+.navbar-nav .nav-link:hover
+{
+    color: #00bbf0 !important;
+}
+.navbar-nav .nav-link.active
+{
+    color: #00bbf0 !important;
+}
+/* ../navbar */
+
+/* slider */
+.slider .carousel-inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.slider .carousel-inner .info-h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:768px){
+    .slider .carousel-inner .info-h1
+    {
+        justify-content: center;
+    }
+}
+.slider .carousel-inner .info-h1 h1
+{
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    font-size: 50px;
+    max-width: 900px;
+    line-height: 1.5;
+}
+
+@media(max-width:768px){
+    .slider .carousel-inner .info-h1 h1
+    {
+        left: auto;
+        max-width: 100%;
+        font-size: 30px !important;
+        text-align: center;
+    }
+}
+@media(max-width:992px){
+    .slider .carousel-inner .info-h1 h1
+    {
+        font-size: 50px;
+    }
+}
+.slider .carousel-inner .info-h1 h1 span
+{
+    background-color: #00bbf0;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 10px;
+}
+.slider .carousel-inner .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+.slider .carousel-item
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider .carousel-one
+{
+    background-image: url('../images/1.jpg');
+}
+.slider .carousel-two
+{
+    background-image: url('../images/2.jpg');
+}
+.slider .carousel-three
+{
+    background-image: url('../images/3.jpg');
+}
+.slider .carousel-indicators li
+{
+    height: 8px;
+}
+/* ../slider */
+
+/* about */
+.about .column
+{
+    padding: 0;
+}
+.about .column:last-child
+{
+    background-color: #faf8f8;
+    color: #005792;
+    padding-bottom: 40px;
+}
+.about .mean
+{
+    text-align: right;
+}
+.about img
+{
+    max-width: 100%;
+    min-height: 100%;    
+}
+.about h2
+{
+    margin: 40px;
+
+}
+.about p
+{
+    margin: 40px;
+    line-height: 2;
+    font-size: 18px;
+}
+/* ../about */
+
+/* انواع السياحة العلاجية في مصر */
+section.types
+{
+    padding-top: 100px;
+}
+section.types h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #005792;
+    text-align: center;
+}
+section.types div
+{
+    line-height: 2;
+    font-size: 18px;
+    text-align: center;
+    color: #00204a;
+}
+section.types div:not(:last-of-type)
+{
+    margin-bottom: 50px;
+}
+section.types div:last-of-type
+{
+    margin-bottom: 100px;
+}
+section.types div h4
+{
+    color: #00bbf0;
+}
+section.types div p
+{
+    color: #00204a;
+}
+section.types div img
+{
+    max-width: 100%;
+}
+/* ../ انواع السياحة العلاجية في مصر */
+
+/* مواسم السياح العلاجية في مصر */
+section.seasons
+{
+    padding-top: 50px;
+    background-color: #faf8f8;
+}
+section.seasons h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #005792;
+    text-align: center;
+}
+section.seasons div
+{
+    line-height: 2;
+    font-size: 18px;
+    text-align: center;
+    color: #00204a;
+}
+section.seasons div p
+{
+    color: #00204a;
+}
+section.seasons div p span
+{
+    color: #00bbf0;
+    font-size: 20px;
+}
+section.seasons div img
+{
+    max-width: 100%;
+}
+/* ../ مواسم السياح العلاجية في مصر */
+
+/* مدة العلاج */
+section.time
+{
+    padding: 100px 0 90px;
+    background-color: #faf8f8;
+}
+section.time h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #005792;
+    text-align: center;
+}
+section.time div
+{
+    line-height: 2;
+    font-size: 18px;
+    text-align: center;
+    color: #00204a;
+}
+/* ../ مدة العلاج */
+
+/* start footer */
+footer
+{
+    color: #34373a;
+}
+/* copyright */
+.copyright
+{
+    border-top: 1px solid #c0c0c0;
+    padding: 20px;
+    color: #727272;
+}
+.copyright ul
+{
+    margin: 0;
+}
+.copyright ul li
+{
+    display: inline-block;
+}
+.copyright ul li a
+{
+    color: #777;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+/* ../copyright */
+/* ../footer */
+
+/* my frame work */
+a
+{
+    color: #00bbf0;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #08526d;
+}
+/* ../my frame work */

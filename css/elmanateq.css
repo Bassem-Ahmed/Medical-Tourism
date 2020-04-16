@@ -1,0 +1,14 @@
+/* theme name: مناطق السياحة العلاجية في مصر
+   theme coder: Bassem Ahmed
+   first color: #08526d
+   second color: #ec1c23
+*/
+body, html
+{
+    direction: rtl;
+}
+
+section.types
+{
+    padding-top: 30px;
+}
